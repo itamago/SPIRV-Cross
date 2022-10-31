@@ -20,8 +20,8 @@
 #
 
 cmake_minimum_required(VERSION 3.0)
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_EXTENSIONS OFF)
+# set(CMAKE_CXX_STANDARD 11)
+# set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Avoid a warning if parent project sets VERSION in project().
 if (${CMAKE_VERSION} VERSION_GREATER "3.0.1")
